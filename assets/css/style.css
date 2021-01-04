@@ -1,0 +1,224 @@
+body {
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    background-color: coral;
+}
+
+.navbar ul {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    margin: 0 0 40px 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+    background-color: cornsilk ;
+}
+
+.navbar-item {
+    float: left;    
+}
+.navbar-item a {
+    display: block;
+    padding: 14px 16px;
+    color: crimson;
+    text-align: center;
+    text-decoration: none;
+}
+.navbar-item a:hover{
+    background-color: crimson;
+    color: cornsilk;
+}
+.active {
+    background-color: crimson;
+}
+.active a {
+    color: cornsilk;
+}
+
+.container {
+    display: block;
+    margin: 65px;
+}
+
+.titre {
+    background-color: brown;
+    color: cornsilk;
+}
+
+img {
+    border: 1px solid rgb(9, 123, 114);
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+.menuNav_test {
+    margin: 20px 0 40px;
+    padding: 0 0 10px;
+    border: paleturquoise solid 2px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: crimson;
+}
+nav li {
+    float: left;    
+}
+nav li a {
+    display: block;
+    padding: 14px 16px;
+    color: cornsilk;
+    text-align: center;
+    text-decoration: none;
+}
+nav li a:hover{
+    background-color: cornsilk;
+    color: crimson;
+}
+
+#para1 {
+    color: blueviolet;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    padding-top: 50px;
+    position: relative;
+    bottom: 0;
+    background-color: coral;
+}
+footer p {
+    color: white;
+}
+
+.gradient-vertical {
+    width: auto;
+    height: auto;
+    background: -ms-linear-gradient(top, red, blue);
+    background: -moz-linear-gradient(top, red, blue);
+    background: -webkit-linear-gradient(top, red, blue);
+}
+.gradient-horizontal {
+    width: auto;
+    height: auto;
+    background: -ms-linear-gradient(left, red, blue);
+    background: -moz-linear-gradient(left, red, blue);
+    background: -webkit-linear-gradient(left, red, blue);
+}
+.gradient-diagonal {
+    width: auto;
+    height: auto;
+    background: -ms-linear-gradient(bottom right, red, blue) no-repeat;
+    background: -moz-linear-gradient(bottom right, red, blue) no-repeat;
+    background: -webkit-linear-gradient(bottom right, red, blue) no-repeat;
+    background: linear-gradient(to bottom right, blue, white);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.gradient-test {
+    width: auto;
+    height: auto;
+    background: linear-gradient(to bottom left, cornsilk , white);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.un {
+border: 1px solid #ff0000;
+margin: 10px;
+padding: 10px;
+}
+.deux {
+border: 1px solid #00ff00;
+margin: 2px;
+padding: 2px;
+}
+.trois {
+border: 1px solid #0000ff;
+margin: 10px;
+padding: 10px;
+}
+
+.displayPlayground p {
+    display:inline-block;
+    text-align:left;
+    background:#dce;
+    width:150px;
+    padding:20px;
+    margin: 20px;
+}
+
+.block_layout header, article, footer, aside {
+    display: block;
+}
+.block_layout header {
+    background-color: red;
+}
+.block_layout article {
+    width:80%;
+    height: 300px;
+    float: left;
+    background-color: #66FFFF;
+}
+.block_layout aside {
+    width:20%;
+    height: 300px;
+    float:right;
+    background-color:yellow;
+}
+.block_layout footer {
+    clear: both;
+    background-color: #99FF66;
+}
+
+.grid {
+    display: grid;
+    grid-auto-rows: minmax(100px, auto);
+}
+.premier {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: lavender;
+}
+.deuxieme {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-color: lightcoral;
+}
+.troisieme {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-color: lightseagreen;
+}
+/* .quatrieme {
+    background-color: limegreen;
+}
+.cinquieme {
+    background-color: mediumorchid;
+}
+.sixieme {
+    background-color: midnightblue;
+} */
+
+.conteneur {
+    display: flex;
+    justify-content: space-between;
+}
+.enfant {
+    flex-basis: 200px;
+    background-color: yellow;
+}

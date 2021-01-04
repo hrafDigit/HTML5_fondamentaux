@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li class="navbar-item"><a href="index.html">Accueil</a></li>
+                <li class="navbar-item"><a href="signet.html">Signet</a></li>
+                <li class="navbar-item"><a href="tableau.html">Tableaux</a></li>
+                <li class="navbar-item"><a href="gradient-playground.html">Gradient</a></li>
+                <li class="navbar-item"><a href="display-playground.html">Display</a></li>
+                <li class="navbar-item"><a href="block_layout-playground.html">BlockLayout</a></li>
+                <li class="navbar-item"><a href="grid_layout-playground.html">GridLayout</a></li>
+                <li class="navbar-item"><a href="flexbox_layout-playground.html">FlexboxLayout</a></li>
+                <li class="navbar-item active"><a href="contact.html">Contact</a></li>
+                <li class="navbar-item"><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <form action="mailto:aa@aa.aa" method="POST">
+            <table border="1">
+                <tr>
+                    <td>
+                        <label for="email">Entrez votre nom</label>
+                    </td>
+                    <td>
+                        <input id="email" type="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Etes-vous client ?
+                    </td>
+                    <td>
+                        <label for="radio">OUI</label>
+                        <input type="radio" name='client' value="1">
+                        <label for="radio">NON</label>
+                        <input type="radio" name='client' value="O">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    </td>
+                    <td>
+                        <input type="submit" value="Envoyer">
+                        <input type="reset" value="Annuler">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <p>
+        <input type="text">
+        Entrez votre adresse email <input type="email">
+        Etes-vous client ?
+        OUI <input type="radio" name='client' value="1">
+        NON <input type="radio" name='client' value="0" checked>
+        <input type="submit" value="Envoyer">
+        <input type="reset" value="Annuler">
+    </p>
+    <section class="menuNav_test">
+        <h3>Test de menu</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="signet.html">Signet</a></li>
+                    <li><a href="tableau.html">Tableaux</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
+    </section>
+    <footer>
+        <p>Ici le footer</p>
+    </footer>
+</body>
+
+</html>

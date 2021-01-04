@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display playground</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li class="navbar-item"><a href="index.html">Accueil</a></li>
+                <li class="navbar-item"><a href="signet.html">Signet</a></li>
+                <li class="navbar-item"><a href="tableau.html">Tableaux</a></li>
+                <li class="navbar-item"><a href="gradient-playground.html">Gradient</a></li>
+                <li class="navbar-item active"><a href="display-playground.html">Display</a></li>
+                <li class="navbar-item"><a href="block_layout-playground.html">BlockLayout</a></li>
+                <li class="navbar-item"><a href="grid_layout-playground.html">GridLayout</a></li>
+                <li class="navbar-item"><a href="flexbox_layout-playground.html">FlexboxLayout</a></li>
+                    <li class="navbar-item"><a href="contact.html">Contact</a></li>
+                <li class="navbar-item"><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="un" style="display: block;">
+            ce texte est affiché dans une balise div de type "bloc".
+            <div class="deux" style="display: inline">
+                Ce texte est affiché dans une balise div dont la propriété display vaut inline
+            </div>
+            <div class="trois">ce texte est affiché dans une balise div de type "bloc"</div>
+        </div>
+        <div class="un" style="display: table;">
+            <div class="deux" style="display: table-row">
+                Ce texte est affiché dans une balise div dont la propriété display vaut table.
+                <div class="trois" style="display: table-cell">
+                    ce texte est affiché dans une balise div de type "tablecell"
+                </div>
+                <div class="trois" style="display: table-cell">
+                    ce texte est affiché dans une autre balise div de type "tablecell"
+                </div>
+            </div>
+            <div class="deux" style="display: table-row">
+                On recommence avec une nouvelle ligne
+                <div class="trois" style="display: table-cell">Une première cellule</div>
+                <div class="trois" style="display: table-cell">Et une deuxième</div>
+            </div>
+        </div>
+    </div>
+    <section class="menuNav_test">
+        <h3>Test de menu</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="signet.html">Signet</a></li>
+                    <li><a href="tableau.html">Tableaux</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
+    </section>
+    <footer>
+        <p>Ici le footer</p>
+    </footer>
+</body>
+
+</html>
